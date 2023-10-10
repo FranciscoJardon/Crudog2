@@ -81,35 +81,6 @@
     },
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab": {
       "type": "hero",
-      "blocks": {
-        "95856131-f178-41f0-b412-661feedc56ef": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_21_1.svg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "text_size": "medium",
-            "text_position_large": "end end",
-            "text_position_mobile": "center",
-            "first_button_label": "Suscribirme Ahora",
-            "first_button_link": "",
-            "first_button_arrow_style": false,
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_arrow_style": false,
-            "color_scheme": "accent-1",
-            "custom_colors": true,
-            "color_foreground": "#3051a2",
-            "color_accent": "#0d91bd",
-            "color_background": "#3051a2",
-            "color_gradient": "linear-gradient(54deg, rgba(0, 0, 0, 1) 14%, rgba(255, 250, 99, 1) 85%)"
-          }
-        }
-      },
-      "block_order": [
-        "95856131-f178-41f0-b412-661feedc56ef"
-      ],
       "custom_css": [
         ".button--secondary {padding: 0.5rem 2rem; background: #3051a2; border-radius: 50px; border: none; font-size: 1.5rem;}"
       ],
@@ -133,6 +104,34 @@
         "auto_play_delay": 5
       }
     },
+    "d3b011de-558a-40c5-8f92-1416a5b5041f": {
+      "type": "sliderBanner",
+      "blocks": {
+        "63fbd24e-06d9-4bf6-afd7-3b4a9cc11c98": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_21_1.svg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "TAKE QUIZ",
+            "BtnBackColor": "#34529d",
+            "BtnTextColor": "#ffffff",
+            "UrlBanner2": "",
+            "TituloBtnBanner2": "",
+            "BtnBackColor2": "#5480eb",
+            "BtnTextColor2": "#ffffff",
+            "Top": 85,
+            "Left": 100,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "63fbd24e-06d9-4bf6-afd7-3b4a9cc11c98"
+      ],
+      "settings": {
+      }
+    },
     "9e3b9beb-68ad-4d2d-b266-ea05ab0be050": {
       "type": "productos",
       "settings": {
@@ -154,6 +153,7 @@
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
     "02038340-6f06-43e0-adca-a1d88a4f2018",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
+    "d3b011de-558a-40c5-8f92-1416a5b5041f",
     "9e3b9beb-68ad-4d2d-b266-ea05ab0be050",
     "c9ce1f3b-7fb7-4521-a943-c3e623b4812b",
     "a5bf4840-60dd-495a-8321-5a4ef20d8087"
