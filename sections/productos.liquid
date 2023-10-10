@@ -1,7 +1,104 @@
-<div class="contenedorProductos"></div>
+<h2 style="text-align: center;">NUESTROS PRODUCTOS
+</h2>
+<div class="ContenedorProductos">
+
+  <div class="CardProducto">
+    <div class="EtiquetaIcon Verde">
+      <p>Carne</p>
+      <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/files/icon__meat.svg?v=1696910217" alt="">
+    </div>
+    <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/products/prod1_1ea051e9-d0d6-4bbd-8e20-d41dc342d92a.png?v=1652985102" alt="">
+    <h2>SALMON BRIGTH</h2>
+    <p>$99</p>
+  </div>
+
+  <div class="CardProducto">
+    <div class="EtiquetaIcon Naranja">
+      <p>Carne</p>
+      <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/files/icon__meat.svg?v=1696910217" alt="">
+    </div>
+    <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/files/prod2.png?v=1651267479" alt="">
+    <h2>SALMON BRIGTH</h2>
+    <p>$99</p>
+  </div>
+
+  <div class="CardProducto">
+    <div class="EtiquetaIcon Rojo">
+      <p>Carne</p>
+      <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/files/icon__meat.svg?v=1696910217" alt="">
+    </div>
+    <img src="https://cdn.shopify.com/s/files/1/0639/0264/6525/products/prod3.png?v=1652986661" alt="">
+    <h2>SALMON BRIGTH</h2>
+    <p>$99</p>
+  </div>
+</div>
 
 
-<style></style>
+<style>
+  .Productos {
+    margin: 4rem 0;
+  }
+  .ContenedorProductos {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 4rem 0;
+
+  }
+
+  .CardProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 5px;
+  }
+  .CardProducto img {
+    margin-top: 2rem;
+  }
+
+  .CardProducto h2 {
+    font-size: 1.8rem;
+  }
+  .CardProducto p {
+    font-size: 2.5rem;
+  }
+  .EtiquetaIcon p {
+    font-size: 1.5rem;
+  }
+  .EtiquetaIcon img {
+    margin-top: 0;
+  }
+
+  .EtiquetaIcon {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    right: 0;
+    top: 3%;
+    gap: 10px;
+  }
+
+  .Verde {
+    background: #728B38;
+  }
+  .Naranja {
+    background: #C6672C;
+  }
+  .Rojo {
+    background: #A93B3E;
+  }
+</style>
 
 
 {% schema %}
