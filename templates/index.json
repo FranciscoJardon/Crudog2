@@ -36,8 +36,9 @@
         "template--16911577547005__02038340-6f06-43e0-adca-a1d88a4f2018-block-1": {
           "type": "block",
           "settings": {
-            "large_layout": "text-first",
+            "large_layout": "image-first",
             "mobile_layout": "text-first",
+            "image": "shopify:\/\/shop_images\/plato.png",
             "image_padding": false,
             "video_style": "image-play",
             "enable_parallax": false,
