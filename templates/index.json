@@ -142,6 +142,11 @@
       "type": "carro",
       "settings": {
       }
+    },
+    "a5bf4840-60dd-495a-8321-5a4ef20d8087": {
+      "type": "certificado",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -150,6 +155,7 @@
     "02038340-6f06-43e0-adca-a1d88a4f2018",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
     "9e3b9beb-68ad-4d2d-b266-ea05ab0be050",
-    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b"
+    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b",
+    "a5bf4840-60dd-495a-8321-5a4ef20d8087"
   ]
 }
