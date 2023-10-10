@@ -85,6 +85,82 @@
         "collectionSlider": ""
       }
     },
+    "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab": {
+      "type": "hero",
+      "blocks": {
+        "95856131-f178-41f0-b412-661feedc56ef": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_21_1.svg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "text_size": "medium",
+            "text_position_large": "end center",
+            "text_position_mobile": "center",
+            "first_button_label": "Suscribirme Ahora",
+            "first_button_link": "",
+            "first_button_arrow_style": false,
+            "second_button_label": "SHOP NOW",
+            "second_button_link": "",
+            "second_button_arrow_style": false,
+            "color_scheme": "accent-1",
+            "custom_colors": true,
+            "color_foreground": "#3051a2",
+            "color_accent": "#0d91bd",
+            "color_background": "#3051a2",
+            "color_gradient": "linear-gradient(54deg, rgba(0, 0, 0, 1) 14%, rgba(255, 250, 99, 1) 85%)"
+          }
+        },
+        "e077f1f7-1535-4b75-94de-df5d32ff1a41": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading",
+            "title": "Hero",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "medium",
+            "text_position_large": "center start",
+            "text_position_mobile": "start",
+            "first_button_label": "",
+            "first_button_link": "",
+            "first_button_arrow_style": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_arrow_style": true,
+            "color_scheme": "default-with-accent-1",
+            "custom_colors": false,
+            "color_foreground": "#061c2f",
+            "color_accent": "#0d91bd",
+            "color_background": "#ffffff",
+            "color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "95856131-f178-41f0-b412-661feedc56ef",
+        "e077f1f7-1535-4b75-94de-df5d32ff1a41"
+      ],
+      "settings": {
+        "fixed_width": false,
+        "soft_background": false,
+        "height_large": "auto",
+        "height_mobile": "auto",
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "text_below_image_mobile": true,
+        "image_padding": false,
+        "image_offset": false,
+        "enable_parallax": false,
+        "image_background": true,
+        "overlay": 0,
+        "animation": "swipe",
+        "maintain_text_first_slide": false,
+        "maintain_background_color_first_slide": false,
+        "auto_play": false,
+        "auto_play_delay": 5
+      }
+    },
     "2c97be3f-11e2-4db2-83fc-5e7680ae8fae": {
       "type": "text-columns",
       "blocks": {
@@ -189,6 +265,7 @@
   "order": [
     "hero",
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
+    "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
     "2c97be3f-11e2-4db2-83fc-5e7680ae8fae",
     "featured-products"
   ]
