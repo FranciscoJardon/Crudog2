@@ -57,7 +57,7 @@
         "slide-2"
       ],
       "custom_css": [
-        ".button--secondary {padding: 0.5rem 2rem; background: #3051a2; border-radius: 50px; border: none; font-size: 1.5rem;}"
+        ".button--secondary {margin-top:1rem; padding: 0.5rem 2rem; background: #3051a2; border-radius: 50px; border: none; font-size: 1.5rem;}"
       ],
       "settings": {
         "fixed_width": false,
