@@ -30,6 +30,49 @@
         "collectionSlider": ""
       }
     },
+    "02038340-6f06-43e0-adca-a1d88a4f2018": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16911577547005__02038340-6f06-43e0-adca-a1d88a4f2018-block-1": {
+          "type": "block",
+          "settings": {
+            "large_layout": "text-first",
+            "mobile_layout": "text-first",
+            "image_padding": false,
+            "video_style": "image-play",
+            "enable_parallax": false,
+            "tab_label": "",
+            "subheading": "Subheading",
+            "title": "Media with text",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "medium",
+            "first_button_label": "",
+            "first_button_link": "",
+            "first_button_outline_style": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_outline_style": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16911577547005__02038340-6f06-43e0-adca-a1d88a4f2018-block-1"
+      ],
+      "settings": {
+        "layout": "fixed-soft",
+        "height": "medium",
+        "stack_blocks": true,
+        "center_tabs": true,
+        "padding_top": 1,
+        "padding_bottom": 1,
+        "color_scheme": "default-with-accent-1",
+        "custom_colors": false,
+        "color_foreground": "#061C2F",
+        "color_accent": "#0D91BD",
+        "color_background": "#FFFFFF",
+        "color_gradient": ""
+      }
+    },
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab": {
       "type": "hero",
       "blocks": {
@@ -98,6 +141,7 @@
   "order": [
     "ed9f5157-58a8-41a9-95f7-0d0c20d28bc8",
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
+    "02038340-6f06-43e0-adca-a1d88a4f2018",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
     "9e3b9beb-68ad-4d2d-b266-ea05ab0be050",
     "c9ce1f3b-7fb7-4521-a943-c3e623b4812b"
