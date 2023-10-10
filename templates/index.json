@@ -61,9 +61,9 @@
       ],
       "settings": {
         "fixed_width": false,
-        "soft_background": true,
-        "height_large": "medium",
-        "height_mobile": "x-large",
+        "soft_background": false,
+        "height_large": "auto",
+        "height_mobile": "auto",
         "padding_top": 1,
         "padding_bottom": 1,
         "text_below_image_mobile": true,
@@ -77,6 +77,12 @@
         "maintain_background_color_first_slide": false,
         "auto_play": false,
         "auto_play_delay": 5
+      }
+    },
+    "89346ff4-d5ee-41d1-9525-8318a8f3fd80": {
+      "type": "slidering",
+      "settings": {
+        "collectionSlider": ""
       }
     },
     "2c97be3f-11e2-4db2-83fc-5e7680ae8fae": {
@@ -182,6 +188,7 @@
   },
   "order": [
     "hero",
+    "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
     "2c97be3f-11e2-4db2-83fc-5e7680ae8fae",
     "featured-products"
   ]
