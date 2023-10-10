@@ -71,12 +71,12 @@
         "show_separator_line": true,
         "collapse_navigation_on_tablet": true,
         "padding": 0,
-        "sidebar_color": "inverse",
+        "sidebar_color": "accent-3",
         "color_scheme": "default-with-accent-1",
         "custom_colors": true,
-        "color_foreground": "#ffffff",
+        "color_foreground": "#000000",
         "color_accent": "#0d91bd",
-        "color_background": "#cfbcae"
+        "color_background": "#ffffff"
       }
     }
   },
