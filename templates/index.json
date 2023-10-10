@@ -148,68 +148,6 @@
       "type": "carro",
       "settings": {
       }
-    },
-    "199164a5-b6f4-4811-a2fe-6af8740950aa": {
-      "type": "testimonials",
-      "blocks": {
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "title": "Testimonial 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "author_name": "",
-            "date": "",
-            "logo_width": 100
-          }
-        },
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "title": "Testimonial 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "author_name": "",
-            "date": "",
-            "logo_width": 100
-          }
-        },
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "title": "Testimonial 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "author_name": "",
-            "date": "",
-            "logo_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-1",
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-2",
-        "template--16911577547005__199164a5-b6f4-4811-a2fe-6af8740950aa-testimonial-3"
-      ],
-      "settings": {
-        "layout": "full",
-        "slider_large": false,
-        "slider_mobile": true,
-        "columns_large": "3",
-        "padding_top": 1,
-        "padding_bottom": 1,
-        "center_heading_text": true,
-        "title": "Testimonials",
-        "subheading": "",
-        "center_body_text": true,
-        "soft_background": "none",
-        "color_scheme": "default-with-accent-1",
-        "custom_colors": false,
-        "color_foreground": "#061C2F",
-        "color_accent": "#0D91BD",
-        "color_background": "#FFFFFF",
-        "color_gradient": ""
-      }
     }
   },
   "order": [
@@ -217,7 +155,6 @@
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
     "9e3b9beb-68ad-4d2d-b266-ea05ab0be050",
-    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b",
-    "199164a5-b6f4-4811-a2fe-6af8740950aa"
+    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b"
   ]
 }
