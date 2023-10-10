@@ -30,6 +30,9 @@ input,button,textarea,select{font:inherit}
 h1, h2, h3 {
   font-family:TitulosCrudog !important;
 }
+p {
+  font-family:TextosCrudog !important;
+}
 body {
   font-family: TextosCrudog ;
   background-color: var(--color-default-background);
