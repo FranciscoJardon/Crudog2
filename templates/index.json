@@ -96,12 +96,12 @@
             "title": "",
             "text": "",
             "text_size": "medium",
-            "text_position_large": "end center",
+            "text_position_large": "end end",
             "text_position_mobile": "center",
             "first_button_label": "Suscribirme Ahora",
             "first_button_link": "",
             "first_button_arrow_style": false,
-            "second_button_label": "SHOP NOW",
+            "second_button_label": "",
             "second_button_link": "",
             "second_button_arrow_style": false,
             "color_scheme": "accent-1",
@@ -111,35 +111,13 @@
             "color_background": "#3051a2",
             "color_gradient": "linear-gradient(54deg, rgba(0, 0, 0, 1) 14%, rgba(255, 250, 99, 1) 85%)"
           }
-        },
-        "e077f1f7-1535-4b75-94de-df5d32ff1a41": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading",
-            "title": "Hero",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "medium",
-            "text_position_large": "center start",
-            "text_position_mobile": "start",
-            "first_button_label": "",
-            "first_button_link": "",
-            "first_button_arrow_style": false,
-            "second_button_label": "",
-            "second_button_link": "",
-            "second_button_arrow_style": true,
-            "color_scheme": "default-with-accent-1",
-            "custom_colors": false,
-            "color_foreground": "#061c2f",
-            "color_accent": "#0d91bd",
-            "color_background": "#ffffff",
-            "color_gradient": ""
-          }
         }
       },
       "block_order": [
-        "95856131-f178-41f0-b412-661feedc56ef",
-        "e077f1f7-1535-4b75-94de-df5d32ff1a41"
+        "95856131-f178-41f0-b412-661feedc56ef"
+      ],
+      "custom_css": [
+        ".button--secondary {padding: 0.5rem 2rem; background: #3051a2; border-radius: 50px; border: none; font-size: 1.5rem;}"
       ],
       "settings": {
         "fixed_width": false,
