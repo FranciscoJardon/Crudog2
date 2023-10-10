@@ -139,104 +139,9 @@
         "auto_play_delay": 5
       }
     },
-    "2c97be3f-11e2-4db2-83fc-5e7680ae8fae": {
-      "type": "text-columns",
-      "blocks": {
-        "template--16873499263229__2c97be3f-11e2-4db2-83fc-5e7680ae8fae-text-column-1": {
-          "type": "text-column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lgoo1_d68d8ddc-da2b-492b-a935-6313eb97c5c8.png",
-            "title": "Completa el quiz",
-            "text": "<p>Realiza el quiz para saber cual es el plan ideal para tu perrit@<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "11888cde-a329-434b-9cf3-1f9ddfa0a8a5": {
-          "type": "text-column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lgoo1_d68d8ddc-da2b-492b-a935-6313eb97c5c8.png",
-            "title": "Completa tu compra",
-            "text": "<p>Llena los datos para completar tu compra y tu paquete llegue lo antes posible.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1f0c5940-a11b-4bf4-b3f4-d2c29706b9ed": {
-          "type": "text-column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lgoo1_d68d8ddc-da2b-492b-a935-6313eb97c5c8.png",
-            "title": "Espera tu producto",
-            "text": "<p>Ten un lugar disponible en tu congelador para cuando llegue tu producto y siempre esté fresco.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16873499263229__2c97be3f-11e2-4db2-83fc-5e7680ae8fae-text-column-1",
-        "11888cde-a329-434b-9cf3-1f9ddfa0a8a5",
-        "1f0c5940-a11b-4bf4-b3f4-d2c29706b9ed"
-      ],
+    "9e3b9beb-68ad-4d2d-b266-ea05ab0be050": {
+      "type": "productos",
       "settings": {
-        "layout": "full",
-        "slider_large": false,
-        "slider_mobile": true,
-        "columns_large": "3",
-        "image_ratio": "auto",
-        "image_width": "1\/3",
-        "image_padding": true,
-        "padding_top": 1,
-        "padding_bottom": 1,
-        "center_heading_text": true,
-        "title": "¿Cómo funciona el plan de suscripción?",
-        "subheading": "",
-        "center_body_text": true,
-        "button_label": "",
-        "button_link": "",
-        "button_style": false,
-        "soft_background": "column",
-        "color_scheme": "default-with-accent-1",
-        "custom_colors": false,
-        "color_foreground": "#061c2f",
-        "color_accent": "#0d91bd",
-        "color_background": "#ffffff",
-        "color_gradient": ""
-      }
-    },
-    "featured-products": {
-      "type": "featured-products",
-      "settings": {
-        "layout": "full",
-        "products": [
-          "active-hound-1",
-          "piggy-tuna-suscripcion-mensual",
-          "salmon-bright-suscripcion"
-        ],
-        "slider_large": false,
-        "slider_mobile": true,
-        "columns_large": "4",
-        "columns_mobile": "1",
-        "padding_top": 1,
-        "padding_bottom": 1,
-        "center_text": true,
-        "title": "Nuestros Productos",
-        "heading_size": "h2",
-        "text": "",
-        "text_style": "large-subtext",
-        "button_large": "bottom",
-        "button_mobile": "top",
-        "button_label": "",
-        "button_link": "",
-        "image_container_ratio": "portrait",
-        "fit_image_to_container": false,
-        "image_padding": 5,
-        "enable_second_image_on_hover": true,
-        "color_scheme": "soft-background",
-        "custom_colors": false,
-        "color_foreground": "#061c2f",
-        "color_background": "#ffffff",
-        "color_gradient": ""
       }
     }
   },
@@ -244,7 +149,6 @@
     "hero",
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
-    "2c97be3f-11e2-4db2-83fc-5e7680ae8fae",
-    "featured-products"
+    "9e3b9beb-68ad-4d2d-b266-ea05ab0be050"
   ]
 }
