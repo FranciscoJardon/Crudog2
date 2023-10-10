@@ -1,0 +1,210 @@
+
+
+{% assign barras = product.metafields.custom.barras %}
+{% assign grabado = product.metafields.custom.grabados %}
+{% assign cajas = product.metafields.custom.cajas %}
+{% assign tutorial = product.metafields.custom.tutorial %}
+{% assign medidas = product.metafields.custom.medidas %}
+{% assign tipografia = product.metafields.custom.letras %}
+
+<br> <br> <br>
+<div class="ContenedorPadre">
+  <nav class="NavContendor">
+    {% if barras == blank %}
+      {% else %}
+        <a onclick="moveAnimation(0)">Barras</a>
+    {% endif %}
+
+
+    {% if grabado == blank %}
+      {% else %}
+        <a onclick="moveAnimation(100)">Grabados</a>
+    {% endif %}
+
+    {% if cajas == blank %}
+      {% else %}
+        <a onclick="moveAnimation(200)">Cajas</a>
+    {% endif %}
+
+    {% if tutorial == blank %}
+      {% else %}
+        <a onclick="moveAnimation(300)">Tutorial</a>
+    {% endif %}
+
+    {% if medidas == blank %}
+      {% else %}
+        <a onclick="moveAnimation(400)">Medidas</a>
+    {% endif %}
+
+    {% if tipografia == blank %}
+      {% else %}
+        <a onclick="moveAnimation(500)">Tipografía</a>
+    {% endif %}
+
+
+
+    <div class="animation start-home">.</div>
+  </nav>
+  <div class="ContenedorSecciones">
+    <div id="A1" class="Contenido ">
+      <img src="{{ barras | img_url: '4000x' }}">
+    </div>
+    <div id="A2" class="Contenido hide ">
+      <img src="{{ grabado | img_url: '4000x' }}">
+    </div>
+    <div id="A3" class="Contenido hide ">
+      <img src="{{ cajas | img_url: '4000x' }}">
+    </div>
+    <div id="A4" class="Contenido hide ">
+
+      <video
+        width="350px"
+        src="{{ tutorial }}"
+        controls></video>
+
+
+
+    </div>
+
+    <div id="A5" class="Contenido hide ">
+
+
+
+      {{ medidas }}
+
+
+    </div>
+
+    <div id="A6" class="Contenido hide ">
+      <img src="{{ tipografia | img_url: '4000x' }}">
+    </div>
+  </div>
+
+
+
+</div>
+
+<script>
+  function moveAnimation(leftValue) {
+    const animationElement = document.querySelector('.animation');
+    animationElement.style.left = leftValue + 'px';
+
+    const sectionElements = document.querySelectorAll('.Contenido');
+    sectionElements.forEach(section => section.classList.add('hide'));
+
+    let selectedSectionId = "";
+    if (leftValue === 0) {
+      selectedSectionId = "A1";
+    } else if (leftValue === 100) {
+      selectedSectionId = "A2";
+    } else if (leftValue === 200) {
+      selectedSectionId = "A3";
+    } else if (leftValue === 300) {
+      selectedSectionId = "A4";
+    } else if (leftValue === 400) {
+      selectedSectionId = "A5";
+    } else if (leftValue === 500) {
+      selectedSectionId = "A6";
+    }
+    const selectedSection = document.getElementById(selectedSectionId);
+    selectedSection.classList.remove('hide');
+  }
+</script>
+
+<style>
+  .ContenedorPadre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .NavContendor {
+    position: relative;
+    width: auto;
+    height: 50px;
+    background: #780a317d;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+
+  }
+  .NavContendor a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+  }
+  .NavContendor .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100px;
+    z-index: 0;
+    background: #780a31;
+    border-radius: 8px;
+    transition: all 0.5s ease 0s;
+  }
+
+  .NavContendor .start-home,
+  a:nth-child(1):hover~.animation {
+    left: 0;
+  }
+  .NavContendor a:nth-child(2):hover~.animation {
+    left: 100px;
+  }
+  .NavContendor a:nth-child(3):hover~.animation {
+    left: 200px;
+  }
+  .NavContendor a:nth-child(4):hover~.animation {
+    left: 300px;
+  }
+  .NavContendor a:nth-child(5):hover~.animation {
+    left: 400px;
+  }
+  .NavContendor a:nth-child(6):hover~.animation {
+    left: 502px;
+  }
+
+
+  .ContenedorSecciones {
+    width: 96%;
+    padding: 1rem;
+  }
+  .Contenido {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .Contenido img {
+    width: 400px;
+  }
+  .hide {
+    display: none;
+  }
+</style>
+{% schema %}
+  {
+    "name": "Contenedor",
+    "class": "Contenedor",
+    "settings": [],
+    "blocks": [],
+    "presets": [
+      {
+        "name": "Contenedor",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
