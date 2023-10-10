@@ -178,11 +178,18 @@
         "color_background": "#ffffff",
         "color_gradient": ""
       }
+    },
+    "89346ff4-d5ee-41d1-9525-8318a8f3fd80": {
+      "type": "slidering",
+      "settings": {
+        "collectionSlider": ""
+      }
     }
   },
   "order": [
     "hero",
     "2c97be3f-11e2-4db2-83fc-5e7680ae8fae",
-    "featured-products"
+    "featured-products",
+    "89346ff4-d5ee-41d1-9525-8318a8f3fd80"
   ]
 }
