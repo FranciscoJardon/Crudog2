@@ -119,8 +119,8 @@
             "TituloBtnBanner2": "",
             "BtnBackColor2": "#5480eb",
             "BtnTextColor2": "#ffffff",
-            "Top": 85,
-            "Left": 100,
+            "Top": 75,
+            "Left": 95,
             "TopTel": 20,
             "LeftTel": 10
           }
