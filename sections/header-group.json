@@ -64,7 +64,7 @@
         "logo": "shopify:\/\/shop_images\/Crudog_Logo_ad893248-3c23-4126-b79b-cd2c0cdbbbe3-PhotoRoom.png-PhotoRoom.png",
         "logo_width": 130,
         "layout": "left-center",
-        "enable_sticky": true,
+        "enable_sticky": false,
         "header_style": "opaque",
         "transparent_header_color": "#ffffff",
         "enable_search": true,
