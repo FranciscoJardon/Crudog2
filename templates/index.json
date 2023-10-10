@@ -143,12 +143,18 @@
       "type": "productos",
       "settings": {
       }
+    },
+    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b": {
+      "type": "carro",
+      "settings": {
+      }
     }
   },
   "order": [
     "hero",
     "89346ff4-d5ee-41d1-9525-8318a8f3fd80",
     "8982e987-4fa1-4ffc-8a17-02fbfb52d4ab",
-    "9e3b9beb-68ad-4d2d-b266-ea05ab0be050"
+    "9e3b9beb-68ad-4d2d-b266-ea05ab0be050",
+    "c9ce1f3b-7fb7-4521-a943-c3e623b4812b"
   ]
 }
