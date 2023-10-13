@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_25_7affbdd6-9504-430e-84a4-97267a2377c9.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_29.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "TAKE QUIZ",
             "BtnBackColor": "#34529d",
