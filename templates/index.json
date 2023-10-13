@@ -123,8 +123,8 @@
             "BtnTextColor2": "#ffffff",
             "Top": 75,
             "Left": 95,
-            "TopTel": 20,
-            "LeftTel": 10
+            "TopTel": 50,
+            "LeftTel": 49
           }
         }
       },
