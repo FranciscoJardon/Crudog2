@@ -112,6 +112,7 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_21_1.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_30.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "Suscribirme Ahora",
             "BtnBackColor": "#34529d",
